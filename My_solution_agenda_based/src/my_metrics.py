@@ -26,7 +26,7 @@ class metrics:
             x += sentence_bleu( reference , candidate)
             # print(x)
         print(v)    
-        print(x/len(org))
+#         print(x/len(org))
         return ((x/len(org))/fac)
     def calculate_exact_match_rate(self,org,ret):
         match,total = 0,1e-8
